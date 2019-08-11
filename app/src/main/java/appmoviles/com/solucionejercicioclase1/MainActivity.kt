@@ -14,7 +14,11 @@ class MainActivity : AppCompatActivity() {
         loginLoginBtn.setOnClickListener {
             val username = loginUsername.text.toString()
             val password = loginPasswordEt.text.toString()
-            Toast.makeText(this@MainActivity, "$username:$password", Toast.LENGTH_LONG).show()
+
+            if (username.isNotBlank() && password.isNotBlank()) showToast("$username:$password")
+            else showToast("username or password is null")
         }
     }
+
+    private fun showToast(message: String) = Toast.makeText(this@MainActivity, message, Toast.LENGTH_LONG).show()
 }
