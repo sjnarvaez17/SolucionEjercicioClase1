@@ -19,7 +19,7 @@
             android:src="@drawable/instagram" />
 
         <EditText
-            android:id="@+id/login_username_et"
+            android:id="@+id/loginUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
@@ -32,7 +32,7 @@
             android:textColorHint="#ccc" />
 
         <EditText
-            android:id="@+id/login_password_et"
+            android:id="@+id/loginPasswordEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
@@ -45,7 +45,7 @@
             android:textColorHint="#ccc" />
 
         <Button
-            android:id="@+id/login_login_btn"
+            android:id="@+id/loginLoginBtn"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
