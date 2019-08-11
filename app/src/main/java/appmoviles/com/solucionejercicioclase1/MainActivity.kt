@@ -17,5 +17,4 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this@MainActivity, "$username:$password", Toast.LENGTH_LONG).show()
         }
     }
-
 }
