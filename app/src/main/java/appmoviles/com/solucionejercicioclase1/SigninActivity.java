@@ -3,7 +3,7 @@ package appmoviles.com.solucionejercicioclase1;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class signinActivity extends AppCompatActivity {
+public class SigninActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
